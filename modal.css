@@ -1,0 +1,23 @@
+/* Estiliza o fundo escurecido do modal */
+#cart-modal {
+    
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+/* Centraliza o conteúdo do modal */
+.modal-content {
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    max-height: 80vh; /* Define uma altura máxima para o modal */
+    overflow-y: auto; /* Permite rolagem vertical quando o conteúdo excede a altura */
+}
+
+/* Desativa o scroll ao abrir o modal */
+.no-scroll {
+    overflow: hidden;
+}
